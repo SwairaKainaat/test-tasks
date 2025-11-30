@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="index.css" >
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Multimedia & Tags  — Images, Video, Audio, Calendar, Quotes, Links, Table Card, Abbr, SQL</title>
+  
+</head>
+<body>
+
+
+    <!-- image -->
+  <h1>Images</h1>
+  <img src="image.png" alt="img" >
+
+
+
+        <!-- video -->
+  <h1>Video</h1>
+  <video width="320" height="240" controls><source src="video.mp4" type="video/mp4"></video>
+
+
+     <!-- audio -->
+      <h1>Audio</h1>
+<audio controls >
+<source src="audio" type="audio" >
+</audio>
+  
+<br>
+<br>
+
+        <!-- Calendar -->
+   <h1>Calender</h1>
+<input type="datetime-local">
+
+<br>
+<br>
+     <!-- Quotation -->
+ <h1>Quotation</h1>
+    <q>this is Html</q>
+
+
+    <!-- link -->
+    
+    <h1>Link</h1>
+<a href="https://google.com">Google</a>
+
+
+      <!-- js -->
+<h1>JS</h1>
+<button id="showBtn">Show Date & Time</button>
+<p id="output"></p>
+<script>
+    document.getElementById("showBtn").addEventListener("click", function () {
+    const now = new Date();
+    document.getElementById("output").textContent = now.toString();
+});
+
+</script>
+
+
+
+
+<table class="w3-table-all w3-card-4">
+    <tr>
+      <th>Ali</th>
+      <th>Total Marks</th>
+      <th>Obtained Marks</th>
+    </tr>
+    <tr>
+      <td>English </td>
+      <td>100</td>
+      <td>80</td>
+    </tr>
+    <tr>
+       <td>Maths </td>
+      <td>100</td>
+      <td>80</td>
+    </tr>
+    <tr>
+       <td>Science </td>
+      <td>100</td>
+      <td>80</td>
+    </tr>
+     <tr>
+       <td>Biology </td>
+      <td>100</td>
+      <td>80</td>
+    </tr>
+     <tr>
+       <td>Physics </td>
+      <td>100</td>
+      <td>80</td>
+    </tr>
+     <tr>
+       <td>Chemistry </td>
+      <td>100</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+   
+
+
+   <!-- Abbriviation -->
+  <h1>Abbriviation </h1>
+ <p> The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+
+  <!-- Insert values -->
+  <h1>Insert values </h1>
+ 
+ INSERT INTO students (roll, name, marks)
+VALUES 
+(101, 'Aisha', 88),
+(102, 'Bilal', 75),
+(103, 'Hina', 92);
+
+
+
+
+</body>
+</html>

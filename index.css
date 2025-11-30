@@ -1,0 +1,95 @@
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 10%;
+  border-radius: 20%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+    :root
+    {font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.4}
+    body{padding:20px;background:#f6f8fa;color:#0b1220}
+    h1,h2{margin:12px 0}
+    .section{background:#fff;border-radius:10px;padding:16px;margin-bottom:16px;box-shadow:0 6px 18px rgba(12,24,40,.06)}
+    img{max-width:220px;border-radius:8px;border:1px solid #e2e8f0}
+    .media-row{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-start}
+    video, audio{max-width:420px;border-radius:6px}
+    .result-card{width:100%;max-width:760px;margin-top:12px;border-radius:10px;overflow:hidden;border:1px solid #e6eef6}
+    .card-header{background:linear-gradient(90deg,#1e90ff14,#5b21b614);padding:12px 16px;font-weight:700}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:8px 10px;text-align:left;border-bottom:1px solid #eef3f8}
+    th{background:#fbfdff;font-weight:600}
+    .abbr-sample{margin-top:8px}
+    .form-row{display:flex;gap:8px;flex-wrap:wrap}
+    input,select,button,textarea{padding:8px;border-radius:6px;border:1px solid #d1d7e0}
+    .muted{color:#617088;font-size:13px}
+    .sql-out{white-space:pre-wrap;background:#0b1220;color:#e6f1ff;padding:10px;border-radius:6px;margin-top:8px}
+    .controls{display:flex;gap:8px;margin-top:8px}
+ 
